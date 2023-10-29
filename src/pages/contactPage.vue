@@ -1,21 +1,23 @@
 <template>
-  <nav class="z-40 fixed top-0 left-0 w-full py-6">
-    <div class="container mx-auto flex justify-between">
-      <div class="col-8">
+  <nav
+    class="z-40 mx-4 md:mx-20 fixed top-0 left-0 w-full py-6 text-yellow-400"
+  >
+    <div class="row">
+      <div class="col-2 col-md-8">
         <img src="~assets/package.png" class="h-8 animate-bounce text-bold" />
       </div>
-      <div class="col-4 flex">
-        <div class="flex gap-10">
-          <div class="cursor-pointer text-yellow-500">
+      <div class="col-10 col-md-4 flex">
+        <div class="flex md:gap-10">
+          <div class="cursor-pointer hover:text-sky-400">
             <q-btn class="text-lg" flat to="/">Home</q-btn>
           </div>
 
-          <div class="cursor-pointer text-yellow-500">
+          <div class="cursor-pointer hover:text-sky-400">
             <q-btn class="text-lg" flat to="/service">Service</q-btn>
           </div>
-          <div class="cursor-pointer text-yellow-500">
+          <div class="cursor-pointer hover:text-sky-400">
             <q-btn
-              class="text-lg bg-slate-600 px-7 rounded-full tracking-wide py-3 hover:scale-110 duration-300"
+              class="text-lg mr-3 bg-slate-600 md:px-7 rounded-full tracking-wide md:py-3 hover:scale-110 duration-300"
               flat
               to="/contact"
               >Contact</q-btn
@@ -29,13 +31,15 @@
     <section>
       <div class="row py-[-50px] md:py-20 px-2 md:px-36">
         <div class="col-12 col-md-4 mx-2 md:mx-7">
-          <div class="text-[60px] py-10 animate-pulse text-yellow-500">
+          <div
+            class="text-[60px] py-10 animate-pulse text-yellow-500 pt-20 md:pt-0"
+          >
             Get in Touch
           </div>
           <div class="row flex">
             <div class="col-4 col-md-12">
               <q-img
-                class="border-2 items-center border-yellow-500 w-32 md:w-[200px] rounded-[300px]"
+                class="border-2 items-center border-yellow-500 h-[200px] w-[200px] rounded-[600px]"
                 src="~assets/p.jpg"
               />
             </div>

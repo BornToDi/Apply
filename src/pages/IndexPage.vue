@@ -1,12 +1,12 @@
 <template>
   <div class="text-gray-100 font-[Poppins]">
-    <nav class="z-40 fixed top-0 left-0 w-full py-6">
-      <div class="container mx-auto flex justify-between">
-        <div class="col-8">
+    <nav class="z-40 mx-4 md:mx-20 fixed top-0 left-0 w-full py-6">
+      <div class="row">
+        <div class="col-2 col-md-8">
           <img src="~assets/package.png" class="h-8 animate-bounce text-bold" />
         </div>
-        <div class="col-4 flex">
-          <div class="flex gap-10">
+        <div class="col-10 col-md-4 flex">
+          <div class="flex md:gap-10">
             <div class="cursor-pointer hover:text-sky-400">
               <q-btn class="text-lg" flat to="/">Home</q-btn>
             </div>
@@ -16,7 +16,7 @@
             </div>
             <div class="cursor-pointer hover:text-sky-400">
               <q-btn
-                class="text-lg bg-slate-600 px-7 rounded-full tracking-wide py-3 hover:scale-110 duration-300"
+                class="text-lg mr-3 bg-slate-600 md:px-7 rounded-full tracking-wide md:py-3 hover:scale-110 duration-300"
                 flat
                 to="/contact"
                 >Contact</q-btn
@@ -26,75 +26,74 @@
         </div>
       </div>
     </nav>
-    <section class="bg-slate-900 h-full flex px-[10%] py-[6%]">
-      <img
-        src="~assets/Ellipse.png"
-        class="z-20 animate-ping w-6 absolute right-56 top-1/3"
-      />
-      <img
-        src="~assets/Ellipse.png"
-        color="orange"
-        class="z-40 animate-ping w-6 absolute right-24 top-8"
-      />
-      <img
-        src="~assets/Ellipse.png"
-        class="z-40 animate-ping w-6 absolute right-52 bottom-52"
-      />
-      <img
-        src="~assets/Ellipse.png"
-        class="z-20 animate-ping w-6 absolute left-1/3 bottom-1/3"
-      />
-      <img
-        src="~assets/Ellipse.png"
-        class="z-20 animate-ping w-6 absolute right-1/3 bottom-1/3"
-      />
-
-      <img
-        src="~assets/Ellipse.png"
-        class="z-20 animate-ping w-6 absolute right-2/6 bottom-20"
-      />
-      <img
-        src="~assets/Ellipse.png"
-        class="z-20 animate-ping w-6 absolute right-1/2 top-52"
-      />
-
-      <img src="~assets/wave3.png" class="absolute bottom-20 right-36 w-96" />
-      <img
-        src="~assets/wave.png"
-        class="absolute z-20 bottom-0 right-0 w-2/3"
-      />
-      <img
-        src="~assets/wave.png"
-        class="absolute z-20 bottom-0 right-0 w-2/3"
-      />
-      <div class="flex-1">
+    <section class="section">
+      <div class="hero flex items-center justify-between">
         <img
-          src="~assets/profile.jpg"
-          class="w-10/12 h-[600px] rounded-bl-3xl rounded-tr-3xl"
+          src="~assets/Ellipse.png"
+          class="z-20 animate-ping w-6 absolute right-56 top-1/3"
+        />
+        <img
+          src="~assets/Ellipse.png"
+          color="orange"
+          class="z-40 animate-ping w-6 absolute left-24 top-16"
+        />
+        <img
+          src="~assets/Ellipse.png"
+          color="orange"
+          class="z-40 animate-ping w-6 absolute left-24 bottom-12"
+        />
+        <img
+          src="~assets/Ellipse.png"
+          color="orange"
+          class="z-40 animate-ping w-6 absolute right-24 top-8"
+        />
+        <img
+          src="~assets/Ellipse.png"
+          class="z-40 animate-ping w-6 absolute right-52 bottom-52"
+        />
+        <img
+          src="~assets/Ellipse.png"
+          class="z-20 animate-ping w-6 absolute left-1/3 bottom-1/3"
+        />
+        <img
+          src="~assets/Ellipse.png"
+          class="z-20 animate-ping w-6 absolute right-1/3 bottom-1/3"
+        />
+        <img
+          src="~assets/Ellipse.png"
+          class="z-20 animate-ping w-6 absolute right-1/2 top-52"
         />
       </div>
-
-      <div class="flex-1 pt-7 font-serif">
-        <div class="absolute">
-          <h1 class="text-4xl text-left text-yellow-400 leading-normal py-6">
-            <span1>Build real</span1> <span1>real</span1> <br />
-            <span1>Unique</span1><span1>design</span1> <br />
-            <span1>for</span1> <span1>your</span1> <br />
-            <span1 class="underline decoration-teal-500">Company</span1>
+      <div class="section__container">
+        <div class="content">
+          <p class="subtitle text-lg text-white">HELLO</p>
+          <h1 class="title text-white">
+            I'm <span>Zihadul<br />a</span> Web Developer
           </h1>
-          <q-btn
-            class="bg-teal-800 hover:bg-green-600 px-14 rounded mx-1 animate-pulse tracking-wide py-4 text-lg cursor-pointer text-yellow-400 hover:text-yellow-200 duration-300 font-serif"
-            icon="collections_bookmark"
-            label="My CV"
-            href="https://drive.google.com/file/d/1XmNeMYINNBvpHPUxb78hYlPlVlcqxiPS/view?usp=drive_link"
-          >
-          </q-btn>
-          <q-btn
-            class="bg-teal-800 hover:bg-green-600 px-14 rounded mx-1 animate-pulse tracking-wide py-4 text-lg cursor-pointer text-yellow-400 hover:text-yellow-200 duration-300 font-serif"
-            icon="collections_bookmark"
-            label="My Professional Achievements"
-            href="https://drive.google.com/file/d/11SLHg1kHpKnJWCP3hpX-Nspqu0IlyzbS/view?usp=drive_link"
-          />
+          <p class="description text-yellow-400">
+            Welcome to my web developer portfolio! I'm Zihadul, a skilled and
+            creative web developer with a passion for creating beautiful,
+            responsive, and user-friendly websites. I've worked on a variety of
+            web projects.
+          </p>
+          <div class="action__btns">
+            <q-btn
+              href="https://drive.google.com/file/d/11SLHg1kHpKnJWCP3hpX-Nspqu0IlyzbS/view?usp=drive_link"
+              no-caps
+              class="hire__me px-6 py-3 text-xl"
+              >Professional Achievements</q-btn
+            >
+            <q-btn
+              href="https://drive.google.com/file/d/1XmNeMYINNBvpHPUxb78hYlPlVlcqxiPS/view?usp=drive_link"
+              class="hire__me py-3 px-6 text-xl"
+            >
+              Cv</q-btn
+            >
+          </div>
+        </div>
+
+        <div class="image">
+          <img src="~assets/p.jpg" alt="profile" />
         </div>
       </div>
     </section>
@@ -117,114 +116,159 @@ export default defineComponent({
 
 @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+:root {
+  --primary-color: #a855f7;
+  --primary-color-dark: #9333ea;
+  --secondary-color: #ca8a04;
+  --text-dark: #1f2937;
+  --text-light: #6b7280;
+  --extra-light: #000000;
+  --max-width: 1200px;
+}
+
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
 }
 
 body {
-  height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
+
+.section {
+  background-color: var(--extra-light);
+}
+
+.section__container {
+  min-height: 100vh;
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4rem;
+}
+
+.content {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
 }
 
-h1 {
-  font-family: "Montserrat Medium";
-  max-width: 40ch;
-  text-align: center;
-  transform: scale(0.94);
-  animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
+.subtitle {
+  letter-spacing: 2px;
+  color: var(--text-light);
+  font-weight: 600;
+  margin-bottom: 0.5rem;
 }
-@keyframes scale {
-  100% {
-    transform: scale(1);
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 3rem;
+  color: var(--text-dark);
+  margin-bottom: 1rem;
+}
+
+.title span {
+  font-weight: 600;
+}
+
+.description {
+  line-height: 1.5rem;
+  color: var(--text-light);
+  margin-bottom: 2rem;
+}
+
+.action__btns {
+  display: flex;
+  gap: 1rem;
+}
+
+.action__btns button {
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  padding: 1rem 2rem;
+  outline: none;
+  border: 2px solid var(--primary-color);
+  border-radius: 10px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.hire__me {
+  background-color: var(--primary-color);
+  color: #ffffff;
+}
+
+.hire__me:hover {
+  background-color: var(--primary-color-dark);
+}
+
+.portfolio {
+  color: var(--primary-color);
+}
+
+.portfolio:hover {
+  background-color: var(--primary-color-dark);
+  color: #ffffff;
+}
+
+.image {
+  display: grid;
+  place-items: center;
+}
+
+.image img {
+  width: min(50rem, 60%);
+  border-radius: 100%;
+}
+
+@media (width < 750px) {
+  nav .checkbox {
+    display: block;
   }
-}
 
-span1 {
-  display: inline-block;
-  opacity: 0;
-  filter: blur(4px);
-}
+  ul {
+    position: absolute;
+    width: 100%;
+    height: calc(100vh - 85px);
+    left: -100%;
+    top: 85px;
+    background-color: var(--extra-light);
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+  }
 
-span1:nth-child(1) {
-  animation: fade-in 1s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
-}
+  nav #check:checked ~ ul {
+    left: 0;
+  }
 
-span1:nth-child(2) {
-  animation: fade-in 1s 0.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
-}
+  ul li a {
+    font-size: 1.25rem;
+  }
 
-span1:nth-child(3) {
-  animation: fade-in 1s 0.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
-}
+  .section__container {
+    padding: 10rem 1rem 5rem 1rem;
+    text-align: center;
+    grid-template-columns: repeat(1, 1fr);
+  }
 
-span1:nth-child(4) {
-  animation: fade-in 1s 0.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
-}
+  .image {
+    grid-area: 1/1/2/2;
+  }
 
-span1:nth-child(5) {
-  animation: fade-in 1s 0.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
-}
-
-span1:nth-child(6) {
-  animation: fade-in 1s 0.6s forwards cubic-bezier(0.11, 0, 0.5, 0);
-}
-
-span1:nth-child(7) {
-  animation: fade-in 1s 0.7s forwards cubic-bezier(0.11, 0, 0.5, 0);
-}
-
-span1:nth-child(8) {
-  animation: fade-in 1s 0.8s forwards cubic-bezier(0.11, 0, 0.5, 0);
-}
-
-span1:nth-child(9) {
-  animation: fade-in 1s 0.9s forwards cubic-bezier(0.11, 0, 0.5, 0);
-}
-
-span1:nth-child(10) {
-  animation: fade-in 1s 1s forwards cubic-bezier(0.11, 0, 0.5, 0);
-}
-
-span1:nth-child(11) {
-  animation: fade-in 1s 1.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
-}
-
-span1:nth-child(12) {
-  animation: fade-in 1s 1.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
-}
-
-span1:nth-child(13) {
-  animation: fade-in 1s 1.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
-}
-
-span1:nth-child(14) {
-  animation: fade-in 1s 1.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
-}
-
-span1:nth-child(15) {
-  animation: fade-in 1s 1.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
-}
-
-span1:nth-child(16) {
-  animation: fade-in 1s 1.6s forwards cubic-bezier(0.11, 0, 0.5, 0);
-}
-
-span1:nth-child(17) {
-  animation: fade-in 1s 1.7s forwards cubic-bezier(0.11, 0, 0.5, 0);
-}
-
-span1:nth-child(18) {
-  animation: fade-in 1s 1.8s forwards cubic-bezier(0.11, 0, 0.5, 0);
-}
-
-@keyframes fade-in {
-  100% {
-    opacity: 1;
-    filter: blur(0);
+  .action__btns {
+    margin: auto;
   }
 }
 </style>
